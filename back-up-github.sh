@@ -37,7 +37,7 @@ fi
 git commit -m "Backup RANCID configs - $DATE"
 
 # push ขึ้น GitHub ด้วย branch rancid
-git push -u origin $BRANCH_NAME --force
+git push -u origin $BRANCH_NAME 
 
 # ลบโฟลเดอร์ backup ชั่วคราว
 cd /tmp
